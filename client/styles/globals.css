@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --yellow-color: #ffc107;
+  --blue-color: #5882e3;
+  --light-blue-color: #254870;
+  --red-color: #dc3545;
+  --white-color: #fff;
+  --gray-color: rgba(255, 255, 255, 0.212);
+}
+
+body {
+  padding: 1em 6em;
+  margin: 0;
+  font-size: 20px;
+  font-family: 'Roboto slab';
+
+  background-color: #012d5e;
+  color: #ffffff;
+}
+
+h1,h2,h3,h4 {
+  letter-spacing: 0.1em;
+  color: #ffc107;
+}
+
+h5,h6 {
+  letter-spacing: 0.1em;
+  color: #ffc107;
+  font-weight: 300;
+  margin: 0;
+}
+
+p {
+  letter-spacing: 0.07em;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin: 0.8rem 0rem;
+}
+
+span {
+  font-weight: 300;
+  font-size: 0.8em;
+}
+
+input,select,textarea {
+  width: -webkit-fill-available;;
+  border: 1px solid #ced4da;
+  border-radius: 3px;
+  font-size: 1rem;
+  font-family: 'Roboto slab';
+  font-weight: 300;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  padding: 0.8em 0.7em 0.5em 0.8em;
+}
+
+small {
+  font-size: 0.7rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
